@@ -13,6 +13,10 @@ public class CarHelper implements Runnable {
 
     public Thread thread;
 
+    public CarHelper() {
+        init();
+    }
+
     public void init() {
         System.out.println("Starting car helper thread...");
 
